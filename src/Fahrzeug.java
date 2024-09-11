@@ -14,6 +14,7 @@ public abstract class Fahrzeug {
     }
     public void fahren(int km) {
         this.kilometerstand+= km;
+        System.out.println("Der Kilometerstand beträgt nun "  + kilometerstand + " km.");
     }
     public int getKilometerstand() {
         return kilometerstand;
